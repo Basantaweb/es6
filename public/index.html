@@ -7,12 +7,54 @@
 </head>
 <body>
   <div id="root"></div>
+  <!-- Load the Babel library for ES6+ support -->
+   <nav>
+     <!-- <ul>
+       <li><a href="#home">Home</a></li>
+       <li><a href="#about">About</a></li>
+       <li><a href="#contact">Contact</a></li>
+     </ul> -->
+   </nav>
+   <main>
+    <section id="hero">
+      <h5> JavaScript </h5>
+      <ul>
+        <li><a >Number</a></li>
+        <li><button type="button" onclick="App('odd_and_evn');">odd_and_evn</button></li>
+        <li><button type="button" onclick="App('factorial');">factorial</button></li>
+        <li><button type="button" onclick="App('fibonacci')">fibonacci</button></li>
+        <li><button type="button" onclick="App('prime_numbers')">prime_numbers</button></li>
+        <li><button type="button" onclick="App('palindrome')">palindrome</button></li>
+        <li><button type="button" onclick="App('armstrong_numbers')">armstrong_numbers</button></li>
+        <li><button type="button" onclick="App('sum_of_numbers')">sum_of_numbers</button></li>
+        <li><button type="button" onclick="App('reverse_string')">reverse_string</button></li>
+
+      </ul>
+    </section>
+
+    <section>
+
+    </section>
+
+     <!-- <section id="home">
+       <h2>Home Section</h2>
+       <p>Welcome to the Home Page!</p>
+     </section>
+     <section id="about">
+       <h2>About Section</h2>
+       <p>This is the About Page.</p>
+     </section>
+     <section id="contact">
+       <h2>Contact Section</h2>
+       <p>Please contact us at 123-456-7890.</p>
+     </section> -->
+   </main>
 
   <!-- Load the React and ReactDOM libraries -->
   <script src="https://unpkg.com/react/umd/react.development.js"></script>
   <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
 
   <!-- Load your main JavaScript file -->
-  <script type="module" src="/main.js"></script>
+  <script defer src="/main.js"></script>
 </body>
 </html>
